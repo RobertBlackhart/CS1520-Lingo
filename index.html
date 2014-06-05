@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Lingo</title>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="Username">Welcome user!</div>
+<div id="ThisRoundStats">
+    <b>This Round's Progress:</b>
+    <div id="PuzzleNumber">Puzzle: 0/5</div>
+    <div id="NumWins">Won: 0/3</div>
+</div>
+<table id="Stats">
+    <tr>
+        <td>Num Puzzles Won</td> <td>Num Puzzles Total</td> <td>Num Rounds Won</td> <td>Num Rounds Total</td>
+    </tr>
+    <tr>
+        <td id="NumPuzzlesWon">0</td> <td id="NumPuzzlesTotal">0</td> <td id="NumRoundsWon">0</td> <td id="NumRoundsTotal">0</td>
+    </tr>
+</table>
+<div id="LingoTitle">Lingo</div>
+<div>
+    <table id="GuessTable">
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <input type="text" id="Guess" placeholder="guess">
+    <div id="Timer"></div>
+    <div id="WinLoseMessage"></div>
+    <input type="button" id="NextPuzzle" value="Next Puzzle">
+    <input type="button" id="NextRound" value="Next Round">
+</div>
+<script>main()</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+#Username {
+    position: absolute;
+}
+#LingoTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#GuessTable {
+    text-align: center;
+    margin: auto;
+}
+#Guess {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+#Timer {
+    position: absolute;
+    top: 350px;
+    left: calc(50% + 90px);
+}
+
+#Stats {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#NextPuzzle {
+    display: none;
+    position: absolute;
+    top: 315px;
+    left: calc(50% + 270px);
+}
+
+#NextRound {
+    display: none;
+    position: absolute;
+    top: 315px;
+    left: calc(50% + 270px);
+}
+
+#WinLoseMessage {
+    display: none;
+    position: absolute;
+    top: 270px;
+    left: calc(50% + 270px);
+}
+#ThisRoundStats {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+}
+
+.RightLetterRightPlace {
+    text-transform: uppercase;
+    color: red;
+}
+
+.RightLetterWrongPlace {
+    text-transform: lowercase;
+    color: blue;
+}
+
+.WrongLetter {
+    text-transform: lowercase;
+    color: black;
+}
+
+table{
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 200px;
+}
+
+th, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 100px;
+    height: 1.5em;
+}
